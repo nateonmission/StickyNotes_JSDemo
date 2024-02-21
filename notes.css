@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    padding:0;
+}
+
+div.notes {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+div.square {
+    width:20rem;
+    height:20rem;
+    border: rgb(135, 135, 251) 3px solid;
+    border-radius: 5rem;
+    margin:1rem;
+    
+}
+
+div.add {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 1rem auto;
+    border: rgb(135, 135, 251) 6px solid;
+}
+
+div.note {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 1rem auto;
+    border: rgb(3, 3, 253) 6px solid;
+}
+
+button.delete {
+    width: 4rem;
+    border:gray 1px solid;
+    margin: 0 auto;
+    border-radius: 3rem;
+}
+
+p.add {
+    display: block;
+    margin: 0 auto;
+    font-size: 4rem;
+    padding: 2rem;
+    color:rgb(135, 135, 251);
+    border: rgb(135, 135, 251) 3px solid;
+    border-radius: 21rem;
+}
+
+textarea.note {
+    width: 15rem;
+    height:15rem;
+    border-radius: 3rem;
+    margin: 0 auto;
+    padding:1rem;
+    resize: none;
+}
